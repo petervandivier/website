@@ -1,1 +1,12 @@
+
+baseurl = "https://www.liminal-data.com/"
 theme = "mainroad"
+title = "Liminal Data"
+
+[Params]
+  dateformat = "2006-01-02"
+
+[Author]
+  name = "Peter Vandivier"
+  bio = "Hi. It's me. I'm the problem, it's me."
+  # avatar = "img/avatar.png"
