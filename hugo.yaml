@@ -1,0 +1,51 @@
+baseurl: https://www.liminal-data.com/
+title: Liminal Data
+theme: hugo-coder
+languagecode: en
+defaultcontentlanguage: en
+paginate: 20
+# services:
+#   disqus:
+#     disqusShortname: yourdiscussshortname
+markup:
+  highlight:
+    style: github-dark
+params:
+  author: Peter Vandivier
+  info: Data Shoveller & HugOps Architect
+  description: Database DevOps Trivia & Consulting
+  keywords: blog,developer,database
+  # avatarurl: images/avatar.jpg
+  # faviconSVG: /img/favicon.svg
+  # favicon_32: /img/favicon-32x32.png
+  # favicon_16: /img/favicon-16x16.png
+  since: 2021
+  enableTwemoji: true
+  colorScheme: auto
+  hidecolorschemetoggle: false
+  social:
+    - name: Github
+      icon: fa-brands fa-github fa-2x
+      weight: 1
+      url: https://github.com/petervandiier/
+    - name: Gitlab
+      icon: fa-brands fa-bluesky fa-2x
+      weight: 2
+      url: https://bsky.app/profile/petervandivier.bsky.social
+    - name: LinkedIn
+      icon: fa-brands fa-linkedin fa-2x
+      weight: 3
+      url: https://www.linkedin.com/in/peter-vandivier/
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  author: authors
+menu:
+  main:
+    - name: Blog
+      weight: 1
+      url: posts/
+    - name: About
+      weight: 2
+      url: about/
