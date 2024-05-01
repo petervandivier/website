@@ -24,7 +24,7 @@ params:
   colorScheme: auto
   hidecolorschemetoggle: false
   social:
-    - name: Github
+    - name: GitHub
       icon: fa-brands fa-github fa-2x
       weight: 1
       url: https://github.com/petervandivier/
