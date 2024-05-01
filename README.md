@@ -1,3 +1,3 @@
 # [liminal-data.com](https://www.liminal-data.com/)
 
-Consultancy conact site & technical blog.
+Consultancy contact site & technical blog.
