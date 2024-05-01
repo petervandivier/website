@@ -9,5 +9,18 @@ This site is built on Azure Static Apps using [hugo](https://gohugo.io/)(v0.125.
 - layouts/
 - i18n/
 - data/
-- content/
 - assets
+
+## content/ directory
+
+The content/ directory is the default target for the [`new content` quickstart command](https://gohugo.io/getting-started/quick-start/#add-content).
+
+```sh
+hugo new content posts/my-first-post.md
+```
+
+Unfortunately this command does not create the directory if it is missing. I manually deleted the folder at the same time as 23db905 and needed to recreate it to bypass the error message:
+
+> Error: no existing content directory configured for this project.
+
+Note the archetypes/ directory does not appear to be a requisite for the "my-first-post" step.
