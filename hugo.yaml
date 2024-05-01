@@ -27,7 +27,7 @@ params:
     - name: Github
       icon: fa-brands fa-github fa-2x
       weight: 1
-      url: https://github.com/petervandiier/
+      url: https://github.com/petervandivier/
     - name: StackExchange
       icon: fa-brands fa-stack-exchange fa-2x
       weight: 2
