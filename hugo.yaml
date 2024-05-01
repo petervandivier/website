@@ -28,6 +28,10 @@ params:
       icon: fa-brands fa-github fa-2x
       weight: 1
       url: https://github.com/petervandiier/
+    - name: StackExchange
+      icon: fa-brands fa-stack-exchange fa-2x
+      weight: 2
+      url: https://stackexchange.com/users/5994752/peter-vandivier
     - name: LinkedIn
       icon: fa-brands fa-linkedin fa-2x
       weight: 3
