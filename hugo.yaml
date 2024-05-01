@@ -28,14 +28,14 @@ params:
       icon: fa-brands fa-github fa-2x
       weight: 1
       url: https://github.com/petervandiier/
-    - name: Gitlab
-      icon: fa-brands fa-bluesky fa-2x
-      weight: 2
-      url: https://bsky.app/profile/petervandivier.bsky.social
     - name: LinkedIn
       icon: fa-brands fa-linkedin fa-2x
       weight: 3
       url: https://www.linkedin.com/in/peter-vandivier/
+    - name: Bluesky
+      icon: fa-brands fa-bluesky fa-2x
+      weight: 4
+      url: https://bsky.app/profile/petervandivier.bsky.social
 taxonomies:
   category: categories
   series: series
