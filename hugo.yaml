@@ -10,6 +10,11 @@ paginate: 20
 markup:
   highlight:
     style: github-dark
+  ## subscript tag on content/about.md 
+  # defaultMarkdownHandler: goldmark
+  # goldmark:
+  #   renderer:
+  #     unsafe: false
 params:
   author: Peter Vandivier
   info: Data Shoveller & HugOps Architect
