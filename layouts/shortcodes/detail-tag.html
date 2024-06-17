@@ -1,0 +1,10 @@
+<!--
+    https://discourse.gohugo.io/t/unable-to-use-collapsible-expand-markdown/32810/2 
+-->
+
+<details>
+    <summary>
+        {{ (.Get 0) | markdownify }}
+    </summary>
+    {{ .Inner | markdownify }}
+</details>
