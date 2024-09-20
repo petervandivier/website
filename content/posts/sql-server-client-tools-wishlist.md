@@ -21,6 +21,12 @@ When using Query Store dashboards - often I'll want to have multiple concurrent 
 
 In any case, you can only instantiate each dashboard once per Object Explorer session. This means I need to connect to the server by another connection string or open another running instance of SSMS to get the side-by-side view I want.
 
+### ECHO_HIDDEN analogue
+
+One of my favourite `psql` utilities is [`ECHO_HIDDEN`](https://www.postgresql.org/docs/current/app-psql.html#APP-PSQL-OPTION-ECHO-HIDDEN). It exposes for the user the underlying SQL command being sent to the server when you perform a "short command". This is awesome for discovery, customization, and learning. 
+
+SSMS uses SMO to retrieve data needed to build the Object Explorer or perform various features like scripting objects or using Query Store. Typically in order to capture the underlying queries, you need to run a server-side trace to figure out what's going on here. I'd _love_ it if I could just toggle an option to have the queries being sent by SSMS write to a terminal as I perform UI actions.
+
 ## PowerShell/dbatools
 
 ### Integrated "Recent Connections"
