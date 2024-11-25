@@ -20,7 +20,7 @@ params:
   info: Data Shoveller & HugOps Architect
   description: Database DevOps Trivia & Consulting
   keywords: blog,developer,database
-  # avatarurl: images/avatar.jpg
+  avatarurl: images/owl-database-wings-up.jpeg
   # faviconSVG: /img/favicon.svg
   # favicon_32: /img/favicon-32x32.png
   # favicon_16: /img/favicon-16x16.png
@@ -32,7 +32,7 @@ params:
     - name: GitHub
       icon: fa-brands fa-github fa-2x
       weight: 1
-      url: https://github.com/petervandivier/
+      url: https://github.com/LiminalData/
     - name: StackExchange
       icon: fa-brands fa-stack-exchange fa-2x
       weight: 2
