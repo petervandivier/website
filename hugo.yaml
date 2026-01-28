@@ -37,10 +37,10 @@ params:
       icon: fa-brands fa-stack-exchange fa-2x
       weight: 2
       url: https://stackexchange.com/users/5994752/peter-vandivier
-    # - name: LinkedIn
-    #   icon: fa-brands fa-linkedin fa-2x
-    #   weight: 3
-    #   url: https://www.linkedin.com/in/peter-vandivier/
+    - name: LinkedIn
+      icon: fa-brands fa-linkedin fa-2x
+      weight: 3
+      url: https://www.linkedin.com/in/peter-vandivier/
     - name: Bluesky
       icon: fa-brands fa-bluesky fa-2x
       weight: 4
